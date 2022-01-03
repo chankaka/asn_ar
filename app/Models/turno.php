@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class turno extends Model
 {
     use HasFactory;
+    protected $fillable = ['turno_descripcion','turno_status'];
 }

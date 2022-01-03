@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class hora_agenda extends Model
 {
     use HasFactory;
+    protected $fillable = ['id_turno','h_hora'];
+
 }
